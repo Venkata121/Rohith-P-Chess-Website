@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rohith's Chess</title>
+  <title>Rohith Pullabhotla</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -16,25 +16,144 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
   </script>
-  <link rel="stylesheet" href="/style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+  <link rel="stylesheet" href="/style.css" />
 </head>
 
 <body>
-  <div class="jumbotron jumbotron-fluid jumbotron-white">
+  <div class="jumbotron jumbotron-fluid jumbotron-hero">
     <div class="container text-center">
-      <h1 class="display-4">Hi, I'm Rohith Pullabhotla</h1>
-      <p class="lead">I'm the 4th best chess player in San Antonio.</p>
+      <h1 class="display-4" id="hero-header"></h1>
+      <p class="lead" id="hero-subtitle"></p>
     </div>
   </div>
   <div class="jumbotron jumbotron-fluid jumbotron-white">
     <div class="container">
-      <h2>About Me</h2>
-      <p class="lead">I'm Rohith Pullabhotla and I'm a sophomore at Brandeis High School. I have a 2126 USCF rating and
-        I love playing chess.</p>
-      <p>I'll be hosting free chess classes and paid chess classes every weekend. Learn what's being taught by clicking
-        the button below!</p>
-      <a href="/curriculum.html" class="btn btn-primary">View the Curriculum</a>
+      <h2 class="display-4">About Me</h2>
+      <div class="row text-center">
+        <div class="col">
+          <p class="lead text-left">
+            Hi! I’m Venkata Pullabhotla, a sophomore at Brandeis High School. I became interested in chess at the age of
+            nine when I saw two teens playing chess at a park in India. The oddly shaped pieces, large checkerboard, and
+            competitive atmosphere immediately captivated me. I eagerly picked it up as one of my many hobbies and
+            started off my long journey by learning how to move the pieces in Medavakkam, Chennai…
+          </p>
+          <p class="lead text-left">Five years after the incident, I can proudly say that I do not regret my decision to
+            pursue chess. Throughout my short career, I have not only increased my self-esteem as a decent chess player,
+            but have also learned how to utilize my time wisely, deal with stress, and be patient. Simultaneously, I
+            have improved my creativity, problem-solving skills, and pattern recognition. To put it clearly, the
+            benefits of chess are scientifically proven and go way beyond the chessboard. There is clear scientific
+            evidence pointing to increased academic achievement, improved reading skills, and even an increase in the IQ
+            of people, especially kids, who play chess.
+          </p>
+        </div>
+        <div class="col d-none d-md-block">
+          <img src="https://via.placeholder.com/300x400" />
+        </div>
+      </div>
     </div>
   </div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="d-flex flex-row flex-wrap justify-content-center">
+        <div class="text-center mr-5 ml-5 mb-3">
+          <h2 class="rating-number">2126</h2>
+          <br>
+          <h4 class="rating-text">USCF Rating</h4>
+          <p>USCF CM</p>
+        </div>
+        <div class="text-center mr-5 ml-5 mb-3">
+          <h2 class="rating-number">5</h2>
+          <br>
+          <h4 class="rating-text">TX State Rank</h4>
+          <p>(Age 14)</p>
+        </div>
+        <div class="text-center mr-5 ml-5 mb-3">
+          <h2 class="rating-number">29</h2>
+          <br>
+          <h4 class="rating-text">National Rank</h4>
+          <p>(Age 14)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid jumbotron-white">
+    <div class="container">
+      <h1 class="display-4">The Goal</h1>
+      <p class="lead">To lay the framework of and foster growth in chess for any kids who are interested in learning it.
+      </p>
+      <hr class="my-2">
+      <p>Since I feel like chess has positively affected me and many other chess players in a multitude of ways, I would
+        like to expose more kids to the game. <br>
+        To do this, I will be hosting free chess classes and paid chess classes every weekend. Learn what’s being taught
+        by clicking the button below!
+      </p>
+      <p class="lead">
+        <a class="btn btn-primary" href="./curriculum.html" role="button">View the Curriculum</a>
+      </p>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid jumbotron-red">
+    <div class="container">
+      <h1 class="display-4">Free Chess Classes</h1>
+      <p class="lead">Free group chess classes every weekend over Zoom beginning September 12. These
+        comprehensive classes are 45 minutes - 1 hour in length and are designed to provide students with the basic
+        background for major chess concepts.</p>
+      <p class="lead">
+        <a class="btn btn-danger btn-lg" href="./freeclasses.html" role="button">Learn More</a>
+      </p>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid jumbotron-blue">
+    <div class="container">
+      <h1 class="display-4">Paid Chess Lessons</h1>
+      <p class="lead">Individual chess lessons for players at the tournament level.
+      </p>
+      <hr class="my-2">
+      <p>In these lessons, I will strive to teach the students in a more personalized way. Since kids who are in this
+        stage of the curriculum should be willing to play in tournaments, I will give them special preparation that is
+        unique to their style of play. If they have not already done so, I will choose an opening that fits them well
+        and teach them the theory in that position in the form of live instruction and files.
+      </p>
+      <p>
+        Also, these personalized lessons will go at the pace of the student. There will be no specific schedule or
+        curriculum for these classes. Instead, they will fix their specific weaknesses and learn content (such as
+        openings) that they prefer. Before tournaments, they might be given a little bit of extra practice so they can
+        be as successful as possible.
+      </p>
+      <strong>The starting price for these lessons will be $15.
+      </strong>
+    </div>
+  </div>
+  <div class="text-center">
+    <h1>Contact Me</h1>
+    <strong>Venkata Pullabhotla</strong>
+    <br>
+    <a href="tel:12107932019">+1 210-793-2019</a>
+    <br>
+    <a href="mailto:rohithpullabhotla@gmail.com">rohithpullabhotla@gmail.com</a>
+  </div>
 </body>
+<script>
+  new TypeIt("#hero-header", {
+      strings: "Hi, I’m Venkata Pullabhotla.",
+      speed: 75,
+      loop: false
+    })
+    .exec(async () => {
+      $('#hero-header > .ti-cursor').remove();
+    })
+    .go();
+  new TypeIt("#hero-subtitle", {
+      strings: "I’m the 4th best chess player in San Antonio.",
+      speed: 75,
+      startDelay: 2300,
+      loop: false
+    })
+    .exec(async () => {
+      $('#hero-subtitle > .ti-cursor').remove();
+    })
+    .go();
+</script>
+
 </html>

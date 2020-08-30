@@ -1,3 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.jumbotron-hero {
+    background: white;
+    background-image: url(./chess.jpg);
+    background-position: bottom -50px right 20px;
+    color: white;
+}
+
 .jumbotron-white {
     background: white;
+}
+
+.jumbotron-red {
+    background: rgba(128, 0, 0, 0.1);
+}
+
+.jumbotron-blue {
+    background: #DBF3FA;
+}
+
+.rating-number {
+    font-size: 50px;
+    font-weight: 700;
+    color: maroon;
+}
+
+.rating-text {
+    text-transform: uppercase;
+}
+
+.widget {
+    border-radius: 15px;
+    display: inline-block;
+    width: fit-content;
+    max-width: 200px;
+    word-wrap: break-word;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+    transition: transform .2s;
+}
+
+.widget:nth-child(odd) {
+    background: lightpink;
+}
+
+.widget:nth-child(even) {
+    background: lightcoral;
+}
+
+.widget:hover {
+    transform: scale(1.1);
+}
+
+.widget, a {
+    color: black;
+    text-decoration: none;
+}
+
+.widget, a:hover {
+    color: black;
+    text-decoration: none
+}
+
+.widget h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+}
+
+li {
+    word-wrap: break-word;
 }
